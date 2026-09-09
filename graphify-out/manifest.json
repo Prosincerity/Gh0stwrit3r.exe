@@ -108,15 +108,15 @@
     "semantic_hash": "fd5fa4d5e4c33b40c18b5f99e707948a"
   },
   "app/src/test/java/com/prosincerity/ghostwriter/data/ProjectMetadataTest.kt": {
-    "mtime": 1788873679.5744436,
-    "seen": 1788970343.6177819,
-    "ast_hash": "b038e6f31f8d33b455468ebee9f95058",
-    "semantic_hash": "b038e6f31f8d33b455468ebee9f95058"
+    "mtime": 1788979348.300889,
+    "seen": 1788979397.2448437,
+    "ast_hash": "cf490e92aed6469ec469d88044644da0",
+    "semantic_hash": ""
   },
   "app/src/test/java/com/prosincerity/ghostwriter/data/ProjectStorageBeatTest.kt": {
-    "mtime": 1788975289.1799192,
-    "seen": 1788975780.979329,
-    "ast_hash": "800f87a4c1f3983199dacbc710ac0071",
+    "mtime": 1788979348.0418923,
+    "seen": 1788979397.244846,
+    "ast_hash": "da0056357a38f8540aed4c6888e4ca20",
     "semantic_hash": ""
   },
   "app/src/test/java/com/prosincerity/ghostwriter/data/ProjectStorageTest.kt": {
@@ -144,9 +144,9 @@
     "semantic_hash": ""
   },
   "app/src/test/java/com/prosincerity/ghostwriter/ui/SettingsFormatTest.kt": {
-    "mtime": 1788977153.544481,
-    "seen": 1788977482.300427,
-    "ast_hash": "306b9a6849f079a5ca84f9ae092cc626",
+    "mtime": 1788979348.5648859,
+    "seen": 1788979397.2448537,
+    "ast_hash": "c1454ad1ea92d24906c7b2d5b368796e",
     "semantic_hash": ""
   },
   "build.gradle.kts": {
@@ -381,6 +381,18 @@
     "mtime": 1788977424.3300767,
     "seen": 1788977482.3004014,
     "ast_hash": "74216190b507a62ae1041bd99eff2690",
+    "semantic_hash": ""
+  },
+  "app/src/androidTest/java/com/prosincerity/ghostwriter/ui/components/BeatComponentsTest.kt": {
+    "mtime": 1788979451.876587,
+    "seen": 1788979468.9311357,
+    "ast_hash": "056e7b3679ec2a5e6464416788094ab9",
+    "semantic_hash": ""
+  },
+  "app/src/androidTest/java/com/prosincerity/ghostwriter/ui/screens/ProjectInfoDialogTest.kt": {
+    "mtime": 1788979452.1365838,
+    "seen": 1788979468.9311392,
+    "ast_hash": "2e2282415dc89bd97e3a6da187030cee",
     "semantic_hash": ""
   }
 }
