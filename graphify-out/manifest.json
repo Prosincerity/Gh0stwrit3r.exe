@@ -60,9 +60,9 @@
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/components/WaveformView.kt": {
-    "mtime": 1788976650.9777992,
-    "seen": 1788977482.3004043,
-    "ast_hash": "beb90e9dc02b458b847c2f27faeba625",
+    "mtime": 1788978152.7099197,
+    "seen": 1788978185.895919,
+    "ast_hash": "0bf7b427731df2837e683926f6fec9c3",
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt": {
