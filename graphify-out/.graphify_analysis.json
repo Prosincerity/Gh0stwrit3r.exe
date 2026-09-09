@@ -1,0 +1,409 @@
+{
+  "communities": {
+    "0": [
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_load",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_pause",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_play",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_release",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_seekto",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_setlooping",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_setvolume",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_toggleloop",
+      "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer_toggleplaypause",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_freshplayer_currentpositioniszero",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_freshplayer_defaultsloopingtotrue",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_freshplayer_defaultstofullvolume",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_freshplayer_durationiszero",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_freshplayer_isnotplaying",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_freshplayer_isnotready",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_load_rejectsdirectorywithoutcreatingmediaplayer",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_load_returnsfalse_whenfiledoesnotexist",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_pause_whennotprepared_doesnotcrash",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_play_whennotprepared_doesnotcrash",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_release_calledtwice_doesnotcrash",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_release_whenneverloaded_doesnotcrash",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_seekto_whennotprepared_doesnotcrash",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_setlooping_setsexplicitstate",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_setvolume_clampsvaluesoutsidevalidrange",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_setvolume_ignoresnanandkeepspreviousvolume",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_setvolume_updatesvolumewithinvalidrange",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_toggleloop_flipsbacktotrue",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_toggleloop_flipsfromtruetofalse",
+      "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest_toggleplaypause_whennotprepared_doesnotcrash",
+      "mediaplayer"
+    ],
+    "1": [
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_kt_context",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_kt_intarray",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_assignbeattoproject",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_deleteproject",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_deleteprojectdirectory",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_getprojectbeatfile",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_importinstrumental",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_instrumentalsdir",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_invalidatewaveformcache",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_listinstrumentals",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_listprojects",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_loadcachedwaveform",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_loadlatest",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_loadmetadata",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_loadorextractwaveform",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_metadatafile",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_projectdir",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_removebeatfromproject",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_renameproject",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_renameprojectdirectory",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_resolveprojecttitle",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_rootdir",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_rotateandsave",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_sanitizetitle",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_savecachedwaveform",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_savemanual",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_savemetadata",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_throwifwaveformcancelled",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_waveformcachefile",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage_writetextsafely"
+    ],
+    "2": [
+      "app_src_main_java_com_prosincerity_ghostwriter_mainactivity",
+      "app_src_main_java_com_prosincerity_ghostwriter_mainactivity_editor",
+      "app_src_main_java_com_prosincerity_ghostwriter_mainactivity_ghostwriterapp",
+      "app_src_main_java_com_prosincerity_ghostwriter_mainactivity_home",
+      "app_src_main_java_com_prosincerity_ghostwriter_mainactivity_mainactivity",
+      "app_src_main_java_com_prosincerity_ghostwriter_mainactivity_mainactivity_oncreate",
+      "app_src_main_java_com_prosincerity_ghostwriter_mainactivity_screen",
+      "app_src_main_java_com_prosincerity_ghostwriter_mainactivity_settings",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_homescreen",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_homescreen_homescreen",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_homescreen_newprojectdialog",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_homescreen_renameprojectdialog",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_settingsscreen",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_settingsscreen_formatinterval",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_settingsscreen_settingsdropdownrow",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_settingsscreen_settingsscreen",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_theme_theme",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_theme_theme_ghostwritertheme",
+      "app_src_test_java_com_prosincerity_ghostwriter_ui_settingsformattest",
+      "app_src_test_java_com_prosincerity_ghostwriter_ui_settingsformattest_settingsformattest",
+      "app_src_test_java_com_prosincerity_ghostwriter_ui_settingsformattest_settingsformattest_formatinterval_exactminutes",
+      "app_src_test_java_com_prosincerity_ghostwriter_ui_settingsformattest_settingsformattest_formatinterval_secondsunderoneminute",
+      "app_src_test_java_com_prosincerity_ghostwriter_ui_settingsformattest_settingsformattest_formatplaybacktime_displaysminutesandpaddedseconds",
+      "app_src_test_java_com_prosincerity_ghostwriter_ui_settingsformattest_settingsformattest_settingsconstants_arevalid",
+      "bundle",
+      "componentactivity"
+    ],
+    "3": [
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata_projectmetadata",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata_projectmetadata_fromjsonobject",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata_projectmetadata_fromjsonstring",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata_projectmetadata_optionalstring",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata_projectmetadata_tojsonobject",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata_waveformmarker",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_projectinfodialog",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_projectinfodialog_projectinfodialog",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest_fromjsonobject_invalidmarkersfieldpreservesothermetadata",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest_fromjsonobject_readsversiononeprojectswithoutmarkers",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest_fromjsonobject_skipsincompletemarkersandkeepsvalidentriesinorder",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest_loadmetadata_handlescorruptedjsongracefully",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest_loadmetadata_returnsdefaultwhenfiledoesnotexist",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest_metadata_serializesmarkersandignoresmalformedmarkerentries",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest_saveandloadmetadata_handlesoptionalfieldsasnull",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectmetadatatest_projectmetadatatest_saveandloadmetadata_persistsallfields",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_assigningabeat_clearsmarkersfromtheprevioustimeline",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_getprojectbeatfile_rejectsoutsidefilesanddirectories",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_removingabeat_clearsmarkersfromitstimeline",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_renameprojectdirectory_movescontentsandupdatestitlebasedfiles",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_savefailures_arereportedtocaller",
+      "jsonobject"
+    ],
+    "4": [
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_deleteprojectdirectory_removesallprojectcontents",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_deleteprojectdirectory_returnsfalseformissingproject",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_loadlatest_emptydirectory_returnsemptystring",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_loadlatest_fallsbacktoolderautosaveifnewestmissing",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_loadlatest_readsautosave1whenpresent",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_loadlatest_recoversmanualsavewhenautosavesareunreadable",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_manualsave_replacesexistingcontentswithoutleavingtemporaryfiles",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_renameprojectdirectory_rejectsanexistingdestination",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_resolveprojecttitle_reusesexistingcasingandsanitizedname",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_rotateandsave_exceedskeepcount_dropsoldestbackup",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_rotateandsave_firstwrite_createsautosave1",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_rotateandsave_identicalcontent_noopswithoutrotating",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_rotateandsave_loweringkeepcount_prunesoldbackups",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_rotateandsave_multiplewrites_shiftsfilesup",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_sanitizetitle_disallowsdirectorytraversal",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_sanitizetitle_emptyorblank_returnsuntitled",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_sanitizetitle_normaltitle_unchanged",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_sanitizetitle_replacesillegalcharacters",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_sanitizetitle_stripsleadingandtrailingdots",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_sanitizetitle_trimswhitespace",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_savemanual_createsnamedtextfileandsynchronizesautosave",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest_unchangedlyrics_stillprunebackupsaftercountreduction"
+    ],
+    "5": [
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport_clamped",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport_contentwidthpx",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport_maxscrollpx",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport_panby",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport_positiontox",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport_xtopositionms",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport_zoomby",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_clamped_shrinkingviewportkeepsscrollwithinthenewend",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_panby_clampsatthestartandendofthetimeline",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_panby_nonfinitedeltasleavevalidviewportunchanged",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_positionandseekconversion_accountforzoomandscroll",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_positiontox_atonexmapsthewholebeatacrosstheviewport",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_xtopositionms_clampstouchesbeforeandafterthevisiblearea",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_zerodurationorviewport_hasastablezeroposition",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_zoomby_clampszoomtothedocumentedbounds",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_zoomby_invalidscalefactorsleavevalidviewportunchanged",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_zoomby_preservesthewaveformpointatthepinchfocalpoint",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformviewporttest_waveformviewporttest_zoomby_zoomingfullyoutafterpanningrestoresthewholetimeline"
+    ],
+    "6": [
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_assignbeattoproject_cleansupoldbeatwithdifferentextension",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_assignbeattoproject_copiesbeatandupdatesmetadata",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_assignbeattoproject_copyactionstoresselectedfileandoriginalname",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_assignbeattoproject_rejectsunsupportedextensionbeforecopy",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_assigningorremovingabeat_invalidatesthewaveformcache",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_failedimport_preservesexistingbeatandmetadata",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_importinstrumental_createssanitizedfileindirectory",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_listinstrumentals_filtersaudioextensionsandsortsalphabetically",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_loadcachedwaveform_rejectsmalformedsamples",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_loadorextractwaveform_cancelledbeforeextractiondoesnotcreatecache",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_loadorextractwaveform_cancelledduringextractionpreservespreviouscache",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_loadorextractwaveform_regeneratescorruptordifferentresolutioncaches",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_loadorextractwaveform_reusesacachedwaveformbeforedecodingagain",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_removebeatfromproject_deletesfileandclearsmetadata",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_savecachedwaveform_invalidreplacementpreservesexistingcache",
+      "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest_waveformcache_roundtripsonlyatitsoriginalresolution"
+    ],
+    "7": [
+      "android",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_components_waveformview",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_components_waveformview_kt_intarray",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_components_waveformview_kt_modifier",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_components_waveformview_waveformview",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_beatplayerpanel",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_displaynamefor",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_editorscreen",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_formatplaybacktime",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_kt_intarray",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_kt_modifier",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_pendingbeatpreparation",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_waveformmarkerdialog",
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_theme_color",
+      "uri"
+    ],
+    "8": [
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_kt_intarray",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_appendframepeakstobuckets",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_bucketindexfortimestamp",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_checkcancelled",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_decodepeakbuckets",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_durationms",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_extractamplitudes",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_findaudiotrack",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_integerordefault",
+      "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_longornull",
+      "bytebuffer",
+      "mediacodec",
+      "mediaformat"
+    ],
+    "9": [
+      "app_src_main_java_com_prosincerity_ghostwriter_data_settings",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_settings_kt_context",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_settings_settings",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_settings_settings_getautosavecount",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_settings_settings_getautosaveintervalseconds",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_settings_settings_prefs",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_settings_settings_setautosavecount",
+      "app_src_main_java_com_prosincerity_ghostwriter_data_settings_settings_setautosaveintervalseconds"
+    ],
+    "10": [
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformextractortest",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformextractortest_waveformextractortest",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformextractortest_waveformextractortest_bucketindexfortimestamp_clampstimestampstothewaveformbounds",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformextractortest_waveformextractortest_bucketindexfortimestamp_mapstimestampstoevenbuckets",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformextractortest_waveformextractortest_bucketindexfortimestamp_rejectsinvaliddimensions",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformextractortest_waveformextractortest_extractamplitudes_returnsemptyforcorruptfilewithoutthrowing",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformextractortest_waveformextractortest_extractamplitudes_returnsemptyformissingfile",
+      "app_src_test_java_com_prosincerity_ghostwriter_logic_waveformextractortest_waveformextractortest_extractamplitudes_stopsbeforedecodingwhencancellationisrequested"
+    ],
+    "11": [
+      "gradlew",
+      "gradlew__entry",
+      "gradlew_die",
+      "gradlew_warn"
+    ],
+    "12": [
+      "app_src_androidtest_java_com_prosincerity_ghostwriter_exampleinstrumentedtest",
+      "app_src_androidtest_java_com_prosincerity_ghostwriter_exampleinstrumentedtest_exampleinstrumentedtest",
+      "app_src_androidtest_java_com_prosincerity_ghostwriter_exampleinstrumentedtest_exampleinstrumentedtest_useappcontext"
+    ],
+    "13": [
+      "app_build_gradle"
+    ],
+    "14": [
+      "app_src_main_java_com_prosincerity_ghostwriter_ui_theme_type"
+    ],
+    "15": [
+      "build_gradle"
+    ],
+    "16": [
+      "settings_gradle"
+    ]
+  },
+  "cohesion": {
+    "0": 0.10338680926916222,
+    "1": 0.14516129032258066,
+    "2": 0.11692307692307692,
+    "3": 0.14,
+    "4": 0.08333333333333333,
+    "5": 0.17316017316017315,
+    "6": 0.1111111111111111,
+    "7": 0.225,
+    "8": 0.2857142857142857,
+    "9": 0.5714285714285714,
+    "10": 0.25,
+    "11": 0.8333333333333334,
+    "12": 0.6666666666666666,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_media_beatplayer_beatplayer",
+      "label": "BeatPlayer",
+      "degree": 34
+    },
+    {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_data_projectstorage_projectstorage",
+      "label": "ProjectStorage",
+      "degree": 32
+    },
+    {
+      "id": "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragetest_projectstoragetest",
+      "label": "ProjectStorageTest",
+      "degree": 25
+    },
+    {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformviewport_waveformviewport",
+      "label": "WaveformViewport",
+      "degree": 21
+    },
+    {
+      "id": "app_src_test_java_com_prosincerity_ghostwriter_media_beatplayertest_beatplayertest",
+      "label": "BeatPlayerTest",
+      "degree": 21
+    },
+    {
+      "id": "app_src_test_java_com_prosincerity_ghostwriter_data_projectstoragebeattest_projectstoragebeattest",
+      "label": "ProjectStorageBeatTest",
+      "degree": 20
+    },
+    {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata_projectmetadata",
+      "label": "ProjectMetadata",
+      "degree": 17
+    },
+    {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_data_projectmetadata_waveformmarker",
+      "label": "WaveformMarker",
+      "degree": 12
+    },
+    {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor",
+      "label": "WaveformExtractor",
+      "degree": 12
+    },
+    {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_editorscreen",
+      "label": "EditorScreen()",
+      "degree": 12
+    }
+  ],
+  "surprises": [
+    {
+      "source": "EditorScreen()",
+      "target": "ProjectInfoDialog()",
+      "source_files": [
+        "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
+        "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/ProjectInfoDialog.kt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "GhostwriterApp()",
+      "target": "EditorScreen()",
+      "source_files": [
+        "app/src/main/java/com/prosincerity/ghostwriter/MainActivity.kt",
+        "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "WaveformView()",
+      "target": "WaveformMarker",
+      "source_files": [
+        "app/src/main/java/com/prosincerity/ghostwriter/ui/components/WaveformView.kt",
+        "app/src/main/java/com/prosincerity/ghostwriter/data/ProjectMetadata.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "BeatPlayerPanel()",
+      "target": "WaveformMarker",
+      "source_files": [
+        "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
+        "app/src/main/java/com/prosincerity/ghostwriter/data/ProjectMetadata.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "EditorScreen()",
+      "target": "WaveformMarker",
+      "source_files": [
+        "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
+        "app/src/main/java/com/prosincerity/ghostwriter/data/ProjectMetadata.kt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
