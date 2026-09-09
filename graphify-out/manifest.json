@@ -6,10 +6,10 @@
     "semantic_hash": "005ac71c84af2cae38e255e2b9de2411"
   },
   "app/build.gradle.kts": {
-    "mtime": 1788796495.8648796,
-    "seen": 1788970343.6177418,
-    "ast_hash": "2d9c817c24456b7f2681f3831f34aa92",
-    "semantic_hash": "2d9c817c24456b7f2681f3831f34aa92"
+    "mtime": 1788980170.2075562,
+    "seen": 1788980233.7237656,
+    "ast_hash": "ffeeaba3d9b10536223cbc1fcdcbc9da",
+    "semantic_hash": ""
   },
   "app/src/androidTest/java/com/prosincerity/ghostwriter/ExampleInstrumentedTest.kt": {
     "mtime": 1788796500.7628179,
@@ -228,39 +228,33 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1788801335.1266663,
-    "seen": 1788971755.1421688,
-    "ast_hash": "4c46b6f3e47871cb9874d43ce70aba30",
+    "mtime": 1788979918.1437252,
+    "seen": 1788980233.7238297,
+    "ast_hash": "ab225785fadc210d4a989bd7bff52b9b",
     "semantic_hash": ""
   },
   "documentation/AGENT_CONTEXT.md": {
-    "mtime": 1788974069.220256,
-    "seen": 1788974119.6884944,
-    "ast_hash": "60cc7d9821ab66939360f1522e75c4a7",
+    "mtime": 1788979967.4661052,
+    "seen": 1788980233.7238326,
+    "ast_hash": "c2099944bdcfbaac6e534800d35c3d8c",
     "semantic_hash": ""
   },
   "documentation/FEATURES.md": {
-    "mtime": 1788801334.605673,
-    "seen": 1788971755.1421735,
-    "ast_hash": "d38fa342a904b923ea2d6a9d334891e0",
+    "mtime": 1788979918.4097219,
+    "seen": 1788980233.723835,
+    "ast_hash": "644802acabed814749e8cafef8b8ed0d",
     "semantic_hash": ""
   },
   "documentation/README.md": {
-    "mtime": 1788798098.4497323,
-    "seen": 1788971755.1421757,
-    "ast_hash": "91f7eae7dd4cf5d635162dfbf1ed5162",
+    "mtime": 1788979967.7331018,
+    "seen": 1788980233.7238371,
+    "ast_hash": "d09c499cfd39cdc258e5d1b2b12059ae",
     "semantic_hash": ""
   },
   "documentation/SETUP_NOTES.md": {
     "mtime": 1788796548.6682158,
     "seen": 1788971755.1421778,
     "ast_hash": "18db76d001154adf3faec7206750e213",
-    "semantic_hash": ""
-  },
-  "documentation/waveform_feature_plan.md": {
-    "mtime": 1788867995.2374973,
-    "seen": 1788971755.1421802,
-    "ast_hash": "49151354af36c34dc5e0d3a9fdf988fd",
     "semantic_hash": ""
   },
   "app/src/main/ic_launcher-playstore.png": {
