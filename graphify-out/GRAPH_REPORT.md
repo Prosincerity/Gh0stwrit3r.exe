@@ -1,16 +1,16 @@
 # Graph Report - Gh0stwrit3r  (2026-09-09)
 
 ## Corpus Check
-- 44 files · ~49,882 words
+- 44 files · ~50,027 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 357 nodes · 518 edges · 30 communities (18 shown, 8 thin omitted)
+- 357 nodes · 520 edges · 30 communities (18 shown, 8 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 44 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ce894ecf`
+- Built from commit: `ffa75abd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -46,7 +46,7 @@
 1. `BeatPlayer` - 34 edges
 2. `ProjectStorage` - 32 edges
 3. `ProjectStorageTest` - 25 edges
-4. `WaveformViewport` - 21 edges
+4. `WaveformViewport` - 23 edges
 5. `ProjectStorageBeatTest` - 21 edges
 6. `BeatPlayerTest` - 21 edges
 7. `ProjectMetadata` - 17 edges
@@ -153,10 +153,10 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ProjectMetadata` connect `ProjectMetadata` to `ProjectStorage`?**
   _High betweenness centrality (0.108) - this node is a cross-community bridge._
+- **Why does `ProjectStorage` connect `ProjectStorage` to `MainActivity.kt`, `EditorScreen.kt`?**
+  _High betweenness centrality (0.105) - this node is a cross-community bridge._
 - **Why does `BeatPlayer` connect `BeatPlayer` to `EditorScreen.kt`?**
   _High betweenness centrality (0.104) - this node is a cross-community bridge._
-- **Why does `ProjectStorage` connect `ProjectStorage` to `MainActivity.kt`, `EditorScreen.kt`?**
-  _High betweenness centrality (0.103) - this node is a cross-community bridge._
 - **Are the 20 inferred relationships involving `BeatPlayer` (e.g. with `.freshPlayer_currentPositionIsZero()` and `.freshPlayer_defaultsLoopingToTrue()`) actually correct?**
   _`BeatPlayer` has 20 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 11 inferred relationships involving `WaveformViewport` (e.g. with `.clamped_shrinkingViewportKeepsScrollWithinTheNewEnd()` and `.panBy_clampsAtTheStartAndEndOfTheTimeline()`) actually correct?**

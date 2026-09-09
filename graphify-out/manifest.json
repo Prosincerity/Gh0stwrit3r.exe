@@ -60,15 +60,15 @@
     "semantic_hash": "676ad597bf98435c4002d4efeffd1a99"
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/components/WaveformView.kt": {
-    "mtime": 1788972225.2114384,
-    "seen": 1788972274.5719213,
-    "ast_hash": "b66644879cd70d0aae82e751b1f30bc7",
+    "mtime": 1788973701.8518746,
+    "seen": 1788973793.6494503,
+    "ast_hash": "2f017901cf3bb21b3dfc5578ac9f074f",
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt": {
-    "mtime": 1788972805.994137,
-    "seen": 1788972904.683518,
-    "ast_hash": "8628ca2bb670f38c0c51f6b627aa0f61",
+    "mtime": 1788973702.1118712,
+    "seen": 1788973793.6494575,
+    "ast_hash": "09815abd22fc9a27826c7bcb4afeda1c",
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/HomeScreen.kt": {
