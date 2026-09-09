@@ -90,10 +90,10 @@
     "semantic_hash": "0386cf62fb6987f03e2dbc017ccd731d"
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/theme/Color.kt": {
-    "mtime": 1788804721.2710967,
-    "seen": 1788970343.6177757,
-    "ast_hash": "8ec6aedbe66712d59c95e4e168b01159",
-    "semantic_hash": "8ec6aedbe66712d59c95e4e168b01159"
+    "mtime": 1788974068.9572594,
+    "seen": 1788974119.6884606,
+    "ast_hash": "920185ed4cfc100d487342a321bb6065",
+    "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/theme/Theme.kt": {
     "mtime": 1788804733.7879395,
@@ -234,9 +234,9 @@
     "semantic_hash": ""
   },
   "documentation/AGENT_CONTEXT.md": {
-    "mtime": 1788804721.81809,
-    "seen": 1788971755.1421711,
-    "ast_hash": "ea0b0607e64d707e25383eeabf87cc7f",
+    "mtime": 1788974069.220256,
+    "seen": 1788974119.6884944,
+    "ast_hash": "60cc7d9821ab66939360f1522e75c4a7",
     "semantic_hash": ""
   },
   "documentation/FEATURES.md": {
