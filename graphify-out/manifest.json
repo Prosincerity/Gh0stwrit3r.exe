@@ -60,10 +60,10 @@
     "semantic_hash": "676ad597bf98435c4002d4efeffd1a99"
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/components/WaveformView.kt": {
-    "mtime": 1788874788.4005036,
-    "seen": 1788970343.6177638,
-    "ast_hash": "05aa861bec3172f3ed1b30a1207ac0f0",
-    "semantic_hash": "05aa861bec3172f3ed1b30a1207ac0f0"
+    "mtime": 1788972225.2114384,
+    "seen": 1788972274.5719213,
+    "ast_hash": "b66644879cd70d0aae82e751b1f30bc7",
+    "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt": {
     "mtime": 1788971604.906237,
