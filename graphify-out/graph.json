@@ -235,7 +235,7 @@
       "file_type": "code",
       "norm_label": "pendingbeatpreparation",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L84"
+      "source_location": "L85"
     },
     {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor",
@@ -2062,7 +2062,7 @@
       "file_type": "code",
       "norm_label": "beatplayerpanel()",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L595"
+      "source_location": "L596"
     },
     {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_displaynamefor",
@@ -2074,7 +2074,7 @@
       "file_type": "code",
       "norm_label": "displaynamefor()",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L909"
+      "source_location": "L922"
     },
     {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_editorscreen",
@@ -2086,7 +2086,7 @@
       "file_type": "code",
       "norm_label": "editorscreen()",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L97"
+      "source_location": "L98"
     },
     {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_formatplaybacktime",
@@ -2098,7 +2098,7 @@
       "file_type": "code",
       "norm_label": "formatplaybacktime()",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L902"
+      "source_location": "L915"
     },
     {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_waveformmarkerdialog",
@@ -2110,7 +2110,7 @@
       "file_type": "code",
       "norm_label": "waveformmarkerdialog()",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L848"
+      "source_location": "L861"
     },
     {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_logic_waveformextractor_waveformextractor_appendframepeakstobuckets",
@@ -5288,7 +5288,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L715",
+      "source_location": "L728",
       "weight": 1.0
     },
     {
@@ -5300,7 +5300,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L739",
+      "source_location": "L752",
       "weight": 1.0
     },
     {
@@ -5312,7 +5312,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L122",
+      "source_location": "L123",
       "weight": 1.0
     },
     {
@@ -5324,7 +5324,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L129",
+      "source_location": "L130",
       "weight": 1.0
     },
     {
@@ -5336,7 +5336,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L220",
+      "source_location": "L221",
       "weight": 1.0
     },
     {
@@ -5348,7 +5348,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L245",
+      "source_location": "L246",
       "weight": 1.0
     },
     {
@@ -5360,7 +5360,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L373",
+      "source_location": "L374",
       "weight": 1.0
     },
     {
@@ -5372,7 +5372,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L466",
+      "source_location": "L467",
       "weight": 1.0
     },
     {
@@ -5384,7 +5384,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L472",
+      "source_location": "L473",
       "weight": 1.0
     },
     {
@@ -5396,7 +5396,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L557",
+      "source_location": "L558",
       "weight": 1.0
     },
     {
@@ -5408,7 +5408,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L873",
+      "source_location": "L886",
       "weight": 1.0
     },
     {
@@ -5588,7 +5588,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L595",
+      "source_location": "L596",
       "weight": 1.0
     },
     {
@@ -5604,7 +5604,7 @@
         "alias": "AppSettings"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L66",
+      "source_location": "L67",
       "weight": 1.0
     },
     {
@@ -5710,7 +5710,7 @@
         "target_fqn": "android.net.Uri"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L70",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -5755,7 +5755,7 @@
         "target_fqn": "androidx.compose.material.icons.filled.Settings"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -5800,7 +5800,7 @@
         "target_fqn": "androidx.compose.ui.Modifier"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L56",
+      "source_location": "L57",
       "weight": 1.0
     },
     {
@@ -5815,7 +5815,7 @@
         "target_fqn": "androidx.compose.ui.graphics.Color"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L57",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -5860,7 +5860,7 @@
         "target_fqn": "com.prosincerity.ghostwriter.data.ProjectStorage"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L64",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
@@ -5920,7 +5920,7 @@
         "target_fqn": "com.prosincerity.ghostwriter.data.WaveformMarker"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L65",
+      "source_location": "L66",
       "weight": 1.0
     },
     {
@@ -5950,7 +5950,7 @@
         "target_fqn": "com.prosincerity.ghostwriter.logic.WaveformExtractor"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L67",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -5980,7 +5980,7 @@
         "target_fqn": "com.prosincerity.ghostwriter.media.BeatPlayer"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L68",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -5995,7 +5995,7 @@
         "target_fqn": "com.prosincerity.ghostwriter.ui.components.WaveformView"
       },
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L69",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -6406,7 +6406,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L595",
+      "source_location": "L596",
       "weight": 1.0
     },
     {
@@ -6418,7 +6418,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L595",
+      "source_location": "L596",
       "weight": 1.0
     },
     {
@@ -6430,7 +6430,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L595",
+      "source_location": "L596",
       "weight": 1.0
     },
     {
@@ -6442,7 +6442,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L909",
+      "source_location": "L922",
       "weight": 1.0
     },
     {
@@ -6454,7 +6454,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L909",
+      "source_location": "L922",
       "weight": 1.0
     },
     {
@@ -6686,7 +6686,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L595",
+      "source_location": "L596",
       "weight": 1.0
     },
     {
@@ -6697,7 +6697,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L84",
+      "source_location": "L85",
       "weight": 1.0
     },
     {
@@ -6708,7 +6708,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L848",
+      "source_location": "L861",
       "weight": 1.0
     },
     {
@@ -6719,7 +6719,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L902",
+      "source_location": "L915",
       "weight": 1.0
     },
     {
@@ -6730,7 +6730,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L909",
+      "source_location": "L922",
       "weight": 1.0
     },
     {
@@ -6741,7 +6741,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L97",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -9789,7 +9789,7 @@
       "confidence_score": 0.85,
       "context": "call",
       "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt",
-      "source_location": "L301",
+      "source_location": "L302",
       "weight": 1.0
     },
     {
@@ -10310,5 +10310,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1a5f82b1c7b9b32d6079e890c171e8a83ffcffd0"
+  "built_at_commit": "149e5e3b7b5c80e06ca8cc69d4517e0d385345a4"
 }
