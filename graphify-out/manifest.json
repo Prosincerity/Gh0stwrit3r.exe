@@ -30,9 +30,9 @@
     "semantic_hash": "947d03ae48f57708172f7777bc36d651"
   },
   "app/src/main/java/com/prosincerity/ghostwriter/data/ProjectStorage.kt": {
-    "mtime": 1788971604.65724,
-    "seen": 1788971755.142112,
-    "ast_hash": "c0430796a4fdf0e148ff8d98b2093903",
+    "mtime": 1788975288.704925,
+    "seen": 1788975780.9793067,
+    "ast_hash": "02a600c3baaaa12fee2ffb039d304478",
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/data/Settings.kt": {
@@ -48,10 +48,10 @@
     "semantic_hash": "7fb6c7dc6459d5eff192eeae0225f7e9"
   },
   "app/src/main/java/com/prosincerity/ghostwriter/logic/WaveformViewport.kt": {
-    "mtime": 1788869033.8048487,
-    "seen": 1788970343.6177592,
-    "ast_hash": "86cc3f977a9f42acab20e5d26ddb6e2e",
-    "semantic_hash": "86cc3f977a9f42acab20e5d26ddb6e2e"
+    "mtime": 1788975418.3412955,
+    "seen": 1788975780.9793117,
+    "ast_hash": "a45d01fc86f8d62ddbd3090a4535451f",
+    "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/media/BeatPlayer.kt": {
     "mtime": 1788796497.4018602,
@@ -60,15 +60,15 @@
     "semantic_hash": "676ad597bf98435c4002d4efeffd1a99"
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/components/WaveformView.kt": {
-    "mtime": 1788973701.8518746,
-    "seen": 1788973793.6494503,
-    "ast_hash": "2f017901cf3bb21b3dfc5578ac9f074f",
+    "mtime": 1788975418.8272893,
+    "seen": 1788975780.9793162,
+    "ast_hash": "f7540fe1b0a3b2b51912e08e83fada74",
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt": {
-    "mtime": 1788974625.4552634,
-    "seen": 1788974652.6655495,
-    "ast_hash": "5edc1fcbddbfb480c0790b2f1d3f4cf1",
+    "mtime": 1788975744.753192,
+    "seen": 1788975780.9793189,
+    "ast_hash": "7885b7d6c7481bf5e6f792e2fdbbe1c6",
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/HomeScreen.kt": {
@@ -114,9 +114,9 @@
     "semantic_hash": "b038e6f31f8d33b455468ebee9f95058"
   },
   "app/src/test/java/com/prosincerity/ghostwriter/data/ProjectStorageBeatTest.kt": {
-    "mtime": 1788971605.1512337,
-    "seen": 1788971755.142134,
-    "ast_hash": "df43cd5bf3c8f878991725c4c8b65a1b",
+    "mtime": 1788975289.1799192,
+    "seen": 1788975780.979329,
+    "ast_hash": "800f87a4c1f3983199dacbc710ac0071",
     "semantic_hash": ""
   },
   "app/src/test/java/com/prosincerity/ghostwriter/data/ProjectStorageTest.kt": {
@@ -132,10 +132,10 @@
     "semantic_hash": "eba51135f2bef7836c68f50486ab5c43"
   },
   "app/src/test/java/com/prosincerity/ghostwriter/logic/WaveformViewportTest.kt": {
-    "mtime": 1788873583.1456556,
-    "seen": 1788970343.6177907,
-    "ast_hash": "86cd9e176326100327b856c215a62bec",
-    "semantic_hash": "86cd9e176326100327b856c215a62bec"
+    "mtime": 1788975419.2852836,
+    "seen": 1788975780.9793344,
+    "ast_hash": "1841afd5399d5a811e57ad15dafc668a",
+    "semantic_hash": ""
   },
   "app/src/test/java/com/prosincerity/ghostwriter/media/BeatPlayerTest.kt": {
     "mtime": 1788796500.2348247,
@@ -357,6 +357,12 @@
     "mtime": 1788804911.295708,
     "seen": 1788971755.142217,
     "ast_hash": "142f7009381d93e8c0f6a87710ce8aca",
+    "semantic_hash": ""
+  },
+  "app/src/test/java/com/prosincerity/ghostwriter/ui/WaveformWarningTest.kt": {
+    "mtime": 1788975366.2479503,
+    "seen": 1788975780.9793394,
+    "ast_hash": "556c2b952f4438315ad39af4f6ac2482",
     "semantic_hash": ""
   }
 }
