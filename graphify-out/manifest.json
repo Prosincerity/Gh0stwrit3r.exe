@@ -6,9 +6,9 @@
     "semantic_hash": "005ac71c84af2cae38e255e2b9de2411"
   },
   "app/build.gradle.kts": {
-    "mtime": 1789211420.7371268,
-    "seen": 1789212798.195215,
-    "ast_hash": "ffeeaba3d9b10536223cbc1fcdcbc9da",
+    "mtime": 1789215848.024623,
+    "seen": 1789215930.0074732,
+    "ast_hash": "851ade82d3d72dbe9c39ebfd77d4decc",
     "semantic_hash": ""
   },
   "app/src/androidTest/java/com/prosincerity/ghostwriter/ExampleInstrumentedTest.kt": {
@@ -228,15 +228,15 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1789211420.7369802,
-    "seen": 1789212798.1953278,
-    "ast_hash": "ab225785fadc210d4a989bd7bff52b9b",
+    "mtime": 1789216395.774737,
+    "seen": 1789216422.8658514,
+    "ast_hash": "db564d5f168672ea68bd415baf95a3d2",
     "semantic_hash": ""
   },
   "documentation/AGENT_CONTEXT.md": {
-    "mtime": 1789214279.7713387,
-    "seen": 1789214334.2524462,
-    "ast_hash": "060865cedba09d36c489918296926b8b",
+    "mtime": 1789216396.0377336,
+    "seen": 1789216422.8658552,
+    "ast_hash": "7b9f17429f31a343624340e4f3ff0d88",
     "semantic_hash": ""
   },
   "documentation/FEATURES.md": {
@@ -246,9 +246,9 @@
     "semantic_hash": ""
   },
   "documentation/README.md": {
-    "mtime": 1789211420.7471268,
-    "seen": 1789212798.1953354,
-    "ast_hash": "d09c499cfd39cdc258e5d1b2b12059ae",
+    "mtime": 1789216407.386591,
+    "seen": 1789216422.865859,
+    "ast_hash": "d57847f197013087cfc1a6dc3a68f0b9",
     "semantic_hash": ""
   },
   "documentation/SETUP_NOTES.md": {
@@ -411,6 +411,12 @@
     "mtime": 1789214153.6619241,
     "seen": 1789214334.252401,
     "ast_hash": "8ba0a630c983028bc3f96e848c119ce1",
+    "semantic_hash": ""
+  },
+  "documentation/TESTING.md": {
+    "mtime": 1789216384.7698753,
+    "seen": 1789216422.8658643,
+    "ast_hash": "73683f1a9947411efce9eabba21757e9",
     "semantic_hash": ""
   }
 }

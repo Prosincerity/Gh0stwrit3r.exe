@@ -1195,6 +1195,18 @@
       "source_location": "L32"
     },
     {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_components_playbacktime_formatplaybacktime",
+      "label": "formatPlaybackTime()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Settings",
+      "file_type": "code",
+      "norm_label": "formatplaybacktime()",
+      "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/components/PlaybackTime.kt",
+      "source_location": "L3"
+    },
+    {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_settingsscreen_formatinterval",
       "label": "formatInterval()",
       "_callable": true,
@@ -2455,18 +2467,6 @@
       "source_location": "L20"
     },
     {
-      "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_components_playbacktime_formatplaybacktime",
-      "label": "formatPlaybackTime()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "GhostwriterTheme",
-      "file_type": "code",
-      "norm_label": "formatplaybacktime()",
-      "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/components/PlaybackTime.kt",
-      "source_location": "L3"
-    },
-    {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen_displaynamefor",
       "label": "displayNameFor()",
       "_callable": true,
@@ -3443,6 +3443,126 @@
       "source_location": "L1"
     },
     {
+      "id": "documentation_testing",
+      "label": "TESTING.md",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "testing.md",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documentation_testing_adb_and_container_troubleshooting",
+      "label": "ADB and container troubleshooting",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "adb and container troubleshooting",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L110"
+    },
+    {
+      "id": "documentation_testing_coverage_reports",
+      "label": "Coverage reports",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "coverage reports",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L36"
+    },
+    {
+      "id": "documentation_testing_instrumented_test_only_report",
+      "label": "Instrumented-test-only report",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "instrumented-test-only report",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L72"
+    },
+    {
+      "id": "documentation_testing_local_test_only_report",
+      "label": "Local-test-only report",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "local-test-only report",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "documentation_testing_regular_verification",
+      "label": "Regular verification",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "regular verification",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "documentation_testing_running_the_unified_report_from_android_studio",
+      "label": "Running the unified report from Android Studio",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "running the unified report from android studio",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L86"
+    },
+    {
+      "id": "documentation_testing_test_stack",
+      "label": "Test stack",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "test stack",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "documentation_testing_testing_and_coverage",
+      "label": "Testing and coverage",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "testing and coverage",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "documentation_testing_unified_report",
+      "label": "Unified report",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "Ghostwriter",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "unified report",
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L38"
+    },
+    {
       "id": "readme",
       "label": "README.md",
       "_origin": "ast",
@@ -3476,7 +3596,7 @@
       "node_kind": "heading",
       "norm_label": "contributing",
       "source_file": "README.md",
-      "source_location": "L75"
+      "source_location": "L78"
     },
     {
       "id": "readme_development",
@@ -3488,7 +3608,7 @@
       "node_kind": "heading",
       "norm_label": "development",
       "source_file": "README.md",
-      "source_location": "L71"
+      "source_location": "L74"
     },
     {
       "id": "readme_documentation",
@@ -3524,7 +3644,7 @@
       "node_kind": "heading",
       "norm_label": "license",
       "source_file": "README.md",
-      "source_location": "L79"
+      "source_location": "L82"
     },
     {
       "id": "readme_philosophy",
@@ -3596,7 +3716,7 @@
       "node_kind": "heading",
       "norm_label": "10. before you start making changes",
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L476"
+      "source_location": "L480"
     },
     {
       "id": "documentation_agent_context_1_what_this_project_is",
@@ -3668,7 +3788,7 @@
       "node_kind": "heading",
       "norm_label": "6. deliberate architectural decisions \u2014 please don't silently reverse these",
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L325"
+      "source_location": "L329"
     },
     {
       "id": "documentation_agent_context_7_known_technical_debt_not_yet_addressed_tracked_but_not_urgent",
@@ -3680,7 +3800,7 @@
       "node_kind": "heading",
       "norm_label": "7. known technical debt (not yet addressed, tracked, but not urgent)",
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L349"
+      "source_location": "L353"
     },
     {
       "id": "documentation_agent_context_8_full_feature_roadmap_from_features_md_keep_this_file_updated_as_you_work",
@@ -3692,7 +3812,7 @@
       "node_kind": "heading",
       "norm_label": "8. full feature roadmap (from features.md \u2014 keep this file updated as you work)",
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L401"
+      "source_location": "L405"
     },
     {
       "id": "documentation_agent_context_9_suggested_next_task_if_you_want_a_starting_point",
@@ -3704,7 +3824,7 @@
       "node_kind": "heading",
       "norm_label": "9. suggested next task, if you want a starting point",
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L460"
+      "source_location": "L464"
     },
     {
       "id": "documentation_agent_context_maintenance_review_2026_09_07_historical_checkpoint",
@@ -3716,7 +3836,7 @@
       "node_kind": "heading",
       "norm_label": "maintenance review (2026-09-07, historical checkpoint)",
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L387"
+      "source_location": "L391"
     },
     {
       "id": "documentation_agent_context_project_handoff_ghostwriter",
@@ -3740,7 +3860,7 @@
       "node_kind": "heading",
       "norm_label": "waveform feature review (2026-09-09)",
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L372"
+      "source_location": "L376"
     },
     {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_data_settings",
@@ -3763,6 +3883,17 @@
       "norm_label": "context",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_components_playbacktime",
+      "label": "PlaybackTime.kt",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "Settings",
+      "file_type": "code",
+      "norm_label": "playbacktime.kt",
+      "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/components/PlaybackTime.kt",
+      "source_location": "L1"
     },
     {
       "id": "app_src_test_java_com_prosincerity_ghostwriter_ui_settingsformattest",
@@ -4486,17 +4617,6 @@
       "norm_label": "modifier",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_components_playbacktime",
-      "label": "PlaybackTime.kt",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "GhostwriterTheme",
-      "file_type": "code",
-      "norm_label": "playbacktime.kt",
-      "source_file": "app/src/main/java/com/prosincerity/ghostwriter/ui/components/PlaybackTime.kt",
-      "source_location": "L1"
     },
     {
       "id": "app_src_main_java_com_prosincerity_ghostwriter_ui_screens_editorscreen",
@@ -8823,7 +8943,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L372",
+      "source_location": "L376",
       "weight": 1.0
     },
     {
@@ -8834,7 +8954,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L387",
+      "source_location": "L391",
       "weight": 1.0
     },
     {
@@ -8878,7 +8998,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L325",
+      "source_location": "L329",
       "weight": 1.0
     },
     {
@@ -8889,7 +9009,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L349",
+      "source_location": "L353",
       "weight": 1.0
     },
     {
@@ -8911,7 +9031,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L401",
+      "source_location": "L405",
       "weight": 1.0
     },
     {
@@ -8922,7 +9042,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L460",
+      "source_location": "L464",
       "weight": 1.0
     },
     {
@@ -8933,7 +9053,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "documentation/AGENT_CONTEXT.md",
-      "source_location": "L476",
+      "source_location": "L480",
       "weight": 1.0
     },
     {
@@ -9047,6 +9167,105 @@
       "weight": 1.0
     },
     {
+      "source": "documentation_testing",
+      "target": "documentation_testing_testing_and_coverage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_testing_coverage_reports",
+      "target": "documentation_testing_unified_report",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_testing_coverage_reports",
+      "target": "documentation_testing_local_test_only_report",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_testing_coverage_reports",
+      "target": "documentation_testing_instrumented_test_only_report",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_testing_testing_and_coverage",
+      "target": "documentation_testing_adb_and_container_troubleshooting",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_testing_testing_and_coverage",
+      "target": "documentation_testing_regular_verification",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_testing_testing_and_coverage",
+      "target": "documentation_testing_coverage_reports",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_testing_testing_and_coverage",
+      "target": "documentation_testing_test_stack",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_testing_testing_and_coverage",
+      "target": "documentation_testing_running_the_unified_report_from_android_studio",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/TESTING.md",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
       "source": "gradlew",
       "target": "gradlew__entry",
       "relation": "contains",
@@ -9153,7 +9372,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L71",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -9164,7 +9383,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L75",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -9175,7 +9394,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L79",
+      "source_location": "L82",
       "weight": 1.0
     },
     {
@@ -11148,6 +11367,17 @@
       "weight": 1.0
     },
     {
+      "source": "documentation_agent_context",
+      "target": "documentation_testing",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/AGENT_CONTEXT.md",
+      "source_location": "L319",
+      "weight": 1.0
+    },
+    {
       "source": "documentation_readme",
       "target": "documentation_agent_context",
       "relation": "references",
@@ -11160,13 +11390,24 @@
     },
     {
       "source": "documentation_readme",
-      "target": "documentation_setup_notes",
+      "target": "documentation_testing",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "documentation/README.md",
       "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "documentation_readme",
+      "target": "documentation_setup_notes",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "documentation/README.md",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -11211,6 +11452,17 @@
       "confidence_score": 1.0,
       "source_file": "README.md",
       "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "documentation_testing",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -11959,5 +12211,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b3528bc768ac577ea825699a54459376a212c89b"
+  "built_at_commit": "fd18376ba3e59898982414104e0465b9d1789295"
 }
