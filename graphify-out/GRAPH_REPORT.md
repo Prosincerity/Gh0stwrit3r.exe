@@ -1,16 +1,16 @@
 # Graph Report - Gh0stwrit3r  (2026-09-12)
 
 ## Corpus Check
-- 51 files · ~51,087 words
+- 53 files · ~51,317 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 386 nodes · 604 edges · 30 communities (19 shown, 7 thin omitted)
-- Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.85)
+- 393 nodes · 617 edges · 29 communities (18 shown, 7 thin omitted)
+- Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 62 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bb6d451f`
+- Built from commit: `b3528bc7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -31,7 +31,6 @@
 - What You Must Do When Invoked
 - Ghostwriter
 - Project handoff: Ghostwriter
-- EditorScreen.kt
 - graphify reference: extra exports and benchmark
 - Ghostwriter agent instructions
 - graphify reference: query, path, explain
@@ -50,26 +49,26 @@
 5. `ProjectStorageBeatTest` - 24 edges
 6. `ProjectMetadata` - 21 edges
 7. `BeatPlayerTest` - 20 edges
-8. `GhostwriterTheme()` - 16 edges
+8. `GhostwriterTheme()` - 19 edges
 9. `BeatPlayerPanel()` - 15 edges
-10. `WaveformViewportTest` - 14 edges
+10. `EditorScreen()` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `LongBeatWarningDialog()` --calls--> `formatPlaybackTime()`  [INFERRED]
-  app/src/main/java/com/prosincerity/ghostwriter/ui/components/BeatDialogs.kt → app/src/main/java/com/prosincerity/ghostwriter/ui/components/PlaybackTime.kt
-- `WaveformMarkerDialog()` --calls--> `formatPlaybackTime()`  [INFERRED]
-  app/src/main/java/com/prosincerity/ghostwriter/ui/components/BeatDialogs.kt → app/src/main/java/com/prosincerity/ghostwriter/ui/components/PlaybackTime.kt
-- `BeatPlayerPanel()` --calls--> `formatPlaybackTime()`  [INFERRED]
-  app/src/main/java/com/prosincerity/ghostwriter/ui/components/BeatPlayerPanel.kt → app/src/main/java/com/prosincerity/ghostwriter/ui/components/PlaybackTime.kt
 - `BeatPlayerPanel()` --calls--> `WaveformView()`  [INFERRED]
   app/src/main/java/com/prosincerity/ghostwriter/ui/components/BeatPlayerPanel.kt → app/src/main/java/com/prosincerity/ghostwriter/ui/components/WaveformView.kt
 - `EditorScreen()` --calls--> `ProjectInfoDialog()`  [INFERRED]
   app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt → app/src/main/java/com/prosincerity/ghostwriter/ui/screens/ProjectInfoDialog.kt
+- `GhostwriterApp()` --calls--> `EditorScreen()`  [EXTRACTED]
+  app/src/main/java/com/prosincerity/ghostwriter/MainActivity.kt → app/src/main/java/com/prosincerity/ghostwriter/ui/screens/EditorScreen.kt
+- `BeatPlayerPanel()` --references--> `WaveformMarker`  [EXTRACTED]
+  app/src/main/java/com/prosincerity/ghostwriter/ui/components/BeatPlayerPanel.kt → app/src/main/java/com/prosincerity/ghostwriter/data/ProjectMetadata.kt
+- `WaveformView()` --references--> `WaveformMarker`  [EXTRACTED]
+  app/src/main/java/com/prosincerity/ghostwriter/ui/components/WaveformView.kt → app/src/main/java/com/prosincerity/ghostwriter/data/ProjectMetadata.kt
 
 ## Import Cycles
 - None detected.
 
-## Communities (30 total, 7 thin omitted)
+## Communities (29 total, 7 thin omitted)
 
 ### Community 0 - "BeatPlayer"
 Cohesion: 0.11
@@ -80,8 +79,8 @@ Cohesion: 0.14
 Nodes (3): Context, IntArray, ProjectStorage
 
 ### Community 2 - "Settings"
-Cohesion: 0.16
-Nodes (7): Context, Settings, formatPlaybackTime(), formatInterval(), SettingsDropdownRow(), SettingsScreen(), SettingsFormatTest
+Cohesion: 0.24
+Nodes (4): Context, Settings, formatInterval(), SettingsFormatTest
 
 ### Community 3 - "ProjectMetadata"
 Cohesion: 0.12
@@ -92,16 +91,16 @@ Cohesion: 0.13
 Nodes (5): WaveformViewport, IntArray, Modifier, WaveformView(), WaveformViewportTest
 
 ### Community 7 - "GhostwriterTheme"
-Cohesion: 0.16
-Nodes (9): BeatComponentsTest, AboutScreenTest, BeatPlayerPanel(), CenteredPlayerContent(), IntArray, Modifier, WaveformZoomButton(), GhostwriterTheme() (+1 more)
+Cohesion: 0.09
+Nodes (22): BeatComponentsTest, LyricsNotepadTest, LongBeatWarningDialog(), ReassignBeatDialog(), WaveformMarkerDialog(), BeatPlayerPanel(), CenteredPlayerContent(), IntArray (+14 more)
 
 ### Community 8 - "WaveformExtractor"
 Cohesion: 0.29
 Nodes (5): IntArray, WaveformExtractor, ByteBuffer, MediaCodec, MediaFormat
 
 ### Community 9 - "MainActivity.kt"
-Cohesion: 0.18
-Nodes (15): About, Editor, GhostwriterApp(), Home, MainActivity, Screen, Settings, AboutLink() (+7 more)
+Cohesion: 0.12
+Nodes (18): AboutScreenTest, About, Editor, GhostwriterApp(), Home, MainActivity, Screen, Settings (+10 more)
 
 ### Community 11 - "gradlew"
 Cohesion: 0.83
@@ -118,10 +117,6 @@ Nodes (20): Feature Roadmap, Guiding rules, Non-goals, Phase 1 — Barebones not
 ### Community 19 - "Project handoff: Ghostwriter"
 Cohesion: 0.15
 Nodes (13): 10. Before you start making changes, 1. What this project is, 2. Non-negotiable philosophy — read this before suggesting anything, 3. Tech stack (as of last verified state), 4. Repository structure (current), 5. What's actually built right now, 6. Deliberate architectural decisions — please don't silently reverse these, 7. Known technical debt (not yet addressed, tracked, but not urgent) (+5 more)
-
-### Community 20 - "EditorScreen.kt"
-Cohesion: 0.24
-Nodes (10): LongBeatWarningDialog(), ReassignBeatDialog(), WaveformMarkerDialog(), displayNameFor(), EditorScreen(), Context, PendingBeatPreparation, shouldWarnBeforeWaveformExtraction() (+2 more)
 
 ### Community 21 - "graphify reference: extra exports and benchmark"
 Cohesion: 0.22
@@ -155,12 +150,12 @@ Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphif
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ProjectMetadata` connect `ProjectMetadata` to `ProjectStorage`, `EditorScreen.kt`?**
+- **Why does `ProjectMetadata` connect `ProjectMetadata` to `ProjectStorage`, `GhostwriterTheme`?**
   _High betweenness centrality (0.146) - this node is a cross-community bridge._
-- **Why does `BeatPlayer` connect `BeatPlayer` to `EditorScreen.kt`, `GhostwriterTheme`?**
-  _High betweenness centrality (0.107) - this node is a cross-community bridge._
-- **Why does `ProjectStorage` connect `ProjectStorage` to `MainActivity.kt`, `EditorScreen.kt`?**
-  _High betweenness centrality (0.102) - this node is a cross-community bridge._
+- **Why does `BeatPlayer` connect `BeatPlayer` to `GhostwriterTheme`?**
+  _High betweenness centrality (0.106) - this node is a cross-community bridge._
+- **Why does `ProjectStorage` connect `ProjectStorage` to `MainActivity.kt`, `GhostwriterTheme`?**
+  _High betweenness centrality (0.101) - this node is a cross-community bridge._
 - **Are the 19 inferred relationships involving `BeatPlayer` (e.g. with `.freshPlayer_currentPositionIsZero()` and `.freshPlayer_defaultsLoopingToTrue()`) actually correct?**
   _`BeatPlayer` has 19 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 13 inferred relationships involving `WaveformViewport` (e.g. with `.clamped_shrinkingViewportKeepsScrollWithinTheNewEnd()` and `.panBy_clampsAtTheStartAndEndOfTheTimeline()`) actually correct?**
