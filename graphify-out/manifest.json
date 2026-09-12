@@ -234,9 +234,9 @@
     "semantic_hash": ""
   },
   "documentation/AGENT_CONTEXT.md": {
-    "mtime": 1789216396.0377336,
-    "seen": 1789216422.8658552,
-    "ast_hash": "7b9f17429f31a343624340e4f3ff0d88",
+    "mtime": 1789217237.7201521,
+    "seen": 1789217281.146108,
+    "ast_hash": "c5d2b3396545da81ba4967ce5087bccb",
     "semantic_hash": ""
   },
   "documentation/FEATURES.md": {
@@ -414,9 +414,15 @@
     "semantic_hash": ""
   },
   "documentation/TESTING.md": {
-    "mtime": 1789216384.7698753,
-    "seen": 1789216422.8658643,
-    "ast_hash": "73683f1a9947411efce9eabba21757e9",
+    "mtime": 1789217237.4421556,
+    "seen": 1789217281.146114,
+    "ast_hash": "051d8ba89cc58e3601b74cc837b6a6c3",
+    "semantic_hash": ""
+  },
+  "app/src/androidTest/java/com/prosincerity/ghostwriter/MainActivityTest.kt": {
+    "mtime": 1789217257.3889048,
+    "seen": 1789217281.1460383,
+    "ast_hash": "85d7d4a8b062d91ebc978cf2ceaaec76",
     "semantic_hash": ""
   }
 }

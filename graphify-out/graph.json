@@ -95,6 +95,19 @@
       "source_location": "L10"
     },
     {
+      "id": "app_src_androidtest_java_com_prosincerity_ghostwriter_mainactivitytest_mainactivitytest",
+      "label": "MainActivityTest",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "MainActivityTest",
+      "file_type": "code",
+      "norm_label": "mainactivitytest",
+      "source_file": "app/src/androidTest/java/com/prosincerity/ghostwriter/MainActivityTest.kt",
+      "source_location": "L12"
+    },
+    {
       "id": "app_src_androidtest_java_com_prosincerity_ghostwriter_ui_screens_projectinfodialogtest_projectinfodialogtest",
       "label": "ProjectInfoDialogTest",
       "_callable": true,
@@ -1265,6 +1278,18 @@
       "norm_label": ".settingsconstants_arevalid()",
       "source_file": "app/src/test/java/com/prosincerity/ghostwriter/ui/SettingsFormatTest.kt",
       "source_location": "L34"
+    },
+    {
+      "id": "app_src_androidtest_java_com_prosincerity_ghostwriter_mainactivitytest_mainactivitytest_navigation_hometoaboutandback_returnshome",
+      "label": ".navigation_homeToAboutAndBack_returnsHome()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "MainActivityTest",
+      "file_type": "code",
+      "norm_label": ".navigation_hometoaboutandback_returnshome()",
+      "source_file": "app/src/androidTest/java/com/prosincerity/ghostwriter/MainActivityTest.kt",
+      "source_location": "L18"
     },
     {
       "id": "app_src_androidtest_java_com_prosincerity_ghostwriter_ui_screens_projectinfodialogtest_projectinfodialogtest_save_filtersbpmandnormalizesoptionaltext",
@@ -3904,6 +3929,17 @@
       "file_type": "code",
       "norm_label": "settingsformattest.kt",
       "source_file": "app/src/test/java/com/prosincerity/ghostwriter/ui/SettingsFormatTest.kt",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_src_androidtest_java_com_prosincerity_ghostwriter_mainactivitytest",
+      "label": "MainActivityTest.kt",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "MainActivityTest",
+      "file_type": "code",
+      "norm_label": "mainactivitytest.kt",
+      "source_file": "app/src/androidTest/java/com/prosincerity/ghostwriter/MainActivityTest.kt",
       "source_location": "L1"
     },
     {
@@ -7814,6 +7850,17 @@
       "weight": 1.0
     },
     {
+      "source": "app_src_androidtest_java_com_prosincerity_ghostwriter_mainactivitytest",
+      "target": "app_src_androidtest_java_com_prosincerity_ghostwriter_mainactivitytest_mainactivitytest",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/androidTest/java/com/prosincerity/ghostwriter/MainActivityTest.kt",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
       "source": "app_src_androidtest_java_com_prosincerity_ghostwriter_ui_components_beatcomponentstest",
       "target": "app_src_androidtest_java_com_prosincerity_ghostwriter_ui_components_beatcomponentstest_beatcomponentstest",
       "relation": "contains",
@@ -9449,6 +9496,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/src/androidTest/java/com/prosincerity/ghostwriter/ExampleInstrumentedTest.kt",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "app_src_androidtest_java_com_prosincerity_ghostwriter_mainactivitytest_mainactivitytest",
+      "target": "app_src_androidtest_java_com_prosincerity_ghostwriter_mainactivitytest_mainactivitytest_navigation_hometoaboutandback_returnshome",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/src/androidTest/java/com/prosincerity/ghostwriter/MainActivityTest.kt",
       "source_location": "L18",
       "weight": 1.0
     },
@@ -12211,5 +12269,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "fd18376ba3e59898982414104e0465b9d1789295"
+  "built_at_commit": "176c468153508a3999919472db2e51920ef8dc31"
 }
