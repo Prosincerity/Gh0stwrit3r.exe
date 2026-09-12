@@ -1,7 +1,7 @@
 {
   "0": "BeatPlayer",
   "1": "ProjectStorage",
-  "2": "Settings",
+  "2": "EditorScreen.kt",
   "3": "ProjectMetadata",
   "4": "ProjectStorageTest",
   "5": "WaveformViewport",
@@ -29,6 +29,5 @@
   "27": "graphify reference: GitHub clone and cross-repo merge",
   "28": "graphify reference: transcribe video and audio",
   "29": "extraction-spec.md",
-  "30": "WaveformExtractorInstrumentedTest",
-  "31": "EditorScreen.kt"
+  "30": "WaveformExtractorInstrumentedTest"
 }
