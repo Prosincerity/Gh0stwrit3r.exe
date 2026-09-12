@@ -18,9 +18,9 @@
     "semantic_hash": "7c1404307d239fc98adb19ea5796d3ee"
   },
   "app/src/main/java/com/prosincerity/ghostwriter/MainActivity.kt": {
-    "mtime": 1789211420.737663,
-    "seen": 1789212798.1952298,
-    "ast_hash": "dd59171fea2c20467379427d111d6392",
+    "mtime": 1789213548.2475352,
+    "seen": 1789213632.7742236,
+    "ast_hash": "4556a7d2413cef388c184669186381cd",
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/data/ProjectMetadata.kt": {
@@ -84,10 +84,10 @@
     "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/SettingsScreen.kt": {
-    "mtime": 1788796498.4258473,
-    "seen": 1788970343.6177733,
-    "ast_hash": "0386cf62fb6987f03e2dbc017ccd731d",
-    "semantic_hash": "0386cf62fb6987f03e2dbc017ccd731d"
+    "mtime": 1789213548.5125318,
+    "seen": 1789213632.7742486,
+    "ast_hash": "bb0fd2febb70058ce986a357440f46c0",
+    "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/ui/theme/Color.kt": {
     "mtime": 1789211420.7431269,
@@ -234,15 +234,15 @@
     "semantic_hash": ""
   },
   "documentation/AGENT_CONTEXT.md": {
-    "mtime": 1789211420.746127,
-    "seen": 1789212798.1953306,
-    "ast_hash": "c2099944bdcfbaac6e534800d35c3d8c",
+    "mtime": 1789213589.846012,
+    "seen": 1789213632.7742898,
+    "ast_hash": "b869a359c29c9660ed9eff7745c64ee6",
     "semantic_hash": ""
   },
   "documentation/FEATURES.md": {
-    "mtime": 1789211420.746127,
-    "seen": 1789212798.1953328,
-    "ast_hash": "644802acabed814749e8cafef8b8ed0d",
+    "mtime": 1789213589.5790155,
+    "seen": 1789213632.7742918,
+    "ast_hash": "68edcf16af4098146f2038a10bc45284",
     "semantic_hash": ""
   },
   "documentation/README.md": {
@@ -387,6 +387,18 @@
     "mtime": 1789211420.737663,
     "seen": 1789212798.1952267,
     "ast_hash": "2e2282415dc89bd97e3a6da187030cee",
+    "semantic_hash": ""
+  },
+  "app/src/androidTest/java/com/prosincerity/ghostwriter/ui/screens/AboutScreenTest.kt": {
+    "mtime": 1789213549.0475252,
+    "seen": 1789213632.7742174,
+    "ast_hash": "6d78e70ebd713cf37fda3f0689344609",
+    "semantic_hash": ""
+  },
+  "app/src/main/java/com/prosincerity/ghostwriter/ui/screens/AboutScreen.kt": {
+    "mtime": 1789213548.7785285,
+    "seen": 1789213632.7742417,
+    "ast_hash": "7efc0174fceea51cf45d6fd894d5001d",
     "semantic_hash": ""
   }
 }
