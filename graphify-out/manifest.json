@@ -42,10 +42,10 @@
     "semantic_hash": "bb36f324d672065e71d61d3dead80ea3"
   },
   "app/src/main/java/com/prosincerity/ghostwriter/logic/WaveformExtractor.kt": {
-    "mtime": 1789211420.7401268,
-    "seen": 1789212798.1952407,
-    "ast_hash": "7fb6c7dc6459d5eff192eeae0225f7e9",
-    "semantic_hash": "7fb6c7dc6459d5eff192eeae0225f7e9"
+    "mtime": 1789219020.7547364,
+    "seen": 1789219089.7877252,
+    "ast_hash": "7a53be7c41c44d67647a312d2bc2258f",
+    "semantic_hash": ""
   },
   "app/src/main/java/com/prosincerity/ghostwriter/logic/WaveformViewport.kt": {
     "mtime": 1789211420.7412508,
@@ -126,10 +126,10 @@
     "semantic_hash": "b49947f74561c512658c4d353672633a"
   },
   "app/src/test/java/com/prosincerity/ghostwriter/logic/WaveformExtractorTest.kt": {
-    "mtime": 1789211420.7451267,
-    "seen": 1789212798.195283,
-    "ast_hash": "eba51135f2bef7836c68f50486ab5c43",
-    "semantic_hash": "eba51135f2bef7836c68f50486ab5c43"
+    "mtime": 1789219021.032733,
+    "seen": 1789219089.7877495,
+    "ast_hash": "5bc4f2a492ac72e983288ffeb22834bd",
+    "semantic_hash": ""
   },
   "app/src/test/java/com/prosincerity/ghostwriter/logic/WaveformViewportTest.kt": {
     "mtime": 1789211420.7458644,
@@ -234,9 +234,9 @@
     "semantic_hash": ""
   },
   "documentation/AGENT_CONTEXT.md": {
-    "mtime": 1789217856.3913743,
-    "seen": 1789217901.210121,
-    "ast_hash": "bb9328d2c0ed8088cb323208d489df3e",
+    "mtime": 1789219021.2987297,
+    "seen": 1789219089.787773,
+    "ast_hash": "c70f9a0c1fb6089a0bee9e55dc4ce776",
     "semantic_hash": ""
   },
   "documentation/FEATURES.md": {
@@ -432,9 +432,15 @@
     "semantic_hash": ""
   },
   "app/src/androidTest/java/com/prosincerity/ghostwriter/ui/screens/HomeScreenTest.kt": {
-    "mtime": 1789217876.5751207,
-    "seen": 1789217901.2100546,
+    "mtime": 1789219020.4857397,
+    "seen": 1789219089.7877154,
     "ast_hash": "3149d815fb934976df487dfadce7377f",
+    "semantic_hash": ""
+  },
+  "app/src/androidTest/java/com/prosincerity/ghostwriter/logic/WaveformExtractorInstrumentedTest.kt": {
+    "mtime": 1789219020.211743,
+    "seen": 1789219089.7877042,
+    "ast_hash": "cda25cdfe69c401f253571a42d2f6d4b",
     "semantic_hash": ""
   }
 }

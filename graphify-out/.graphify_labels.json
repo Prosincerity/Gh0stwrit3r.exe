@@ -28,5 +28,7 @@
   "26": "graphify reference: incremental update and cluster-only",
   "27": "graphify reference: GitHub clone and cross-repo merge",
   "28": "graphify reference: transcribe video and audio",
-  "29": "extraction-spec.md"
+  "29": "extraction-spec.md",
+  "30": "WaveformExtractorInstrumentedTest",
+  "31": "EditorScreen.kt"
 }
